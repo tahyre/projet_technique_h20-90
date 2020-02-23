@@ -18,6 +18,11 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
+  <properties>
+    <sonar.projectKey>($mydroid1)_($gpb-h20-90-7)</sonar.projectKey>
+    <sonar.organization>($mydroid1)-gitlab</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  </properties>
 
   <dependencies>
     <dependency>
@@ -68,10 +73,10 @@
           <version>2.8.2</version>
         </plugin>
 		<plugin>
-                <groupId>org.sonarsource.scanner.maven</groupId>
-                <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.4.0.905</version>
-            </plugin>
+          <groupId>org.sonarsource.scanner.maven</groupId>
+          <artifactId>sonar-maven-plugin</artifactId>
+          <version>3.4.0.905</version>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
