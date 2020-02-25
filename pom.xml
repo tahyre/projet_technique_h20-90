@@ -18,11 +18,6 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
-  <properties>
-    <sonar.projectKey>($mydroid1)_($gpb-h20-90-7)</sonar.projectKey>
-    <sonar.organization>($mydroid1)-gitlab</sonar.organization>
-    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-  </properties>
 
   <dependencies>
     <dependency>
